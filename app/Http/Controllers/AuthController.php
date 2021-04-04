@@ -19,12 +19,15 @@ class AuthController extends Controller
      ******************* Chamadas de telas do sistema *******************
      ********************************************************************/
     public function index() {
-
+        if($this->checkSession()){
             $students = Student::all();
 
             return view('index', [
                 'students' => $students
             ]);
+        } else {
+            return redirect()->route('admin.login');
+        }
     }
 
     public function formLogin() {
