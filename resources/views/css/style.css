@@ -1,0 +1,31 @@
+#edit {
+    color: #343A40;
+}
+
+#delete {
+    color: red;
+}
+
+#telaLogin {
+    width: 18rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+}
+
+#background {
+    background-color: #F4F6F9;
+}
+
+#btnLogin {
+    margin-top: 20px;
+}
+
+#MessageAlert {
+    margin-top: 20px;
+    background-color: #F8D7DA;
+    color: #842029;
+    border-color: #efa7ae;
+}
